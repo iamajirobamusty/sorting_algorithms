@@ -1,16 +1,6 @@
 #ifndef SORT_H
 #define SORT_H
 
-
-#define UP 0
-#define DOWN 1
-
-typedef enum bool
-{
-	false = 0,
-	true
-} bool;
-
 typedef struct listint_s
 {
 	const int n;
